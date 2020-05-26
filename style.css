@@ -1,0 +1,73 @@
+
+* {
+ font-family: "Lucida Console", Courier, monospace;
+  
+}
+
+h1{
+  text-align: center;
+}
+h2{
+	color: white;
+	font-size: 25px;
+  position: relative;
+  
+	text-align: right;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  height: 200px;
+  padding-top:0px;
+  border: 1px solid black;
+  margin: 20px;
+  background-color: lightgray;
+
+}
+.row:after {
+  clear: both;
+}
+#head1{
+	
+  width: 290px;
+  height: 30px;
+  padding-top:0px;
+  border: 1px solid black;
+  margin: 0px;
+  background-color: pink;
+  color: black;
+
+}
+#head2{
+	
+  width: 290px;
+  height: 30px;
+  padding-top:0px;
+  border: 1px solid black;
+  margin: 0px;
+  background-color: red;
+  color: white;
+
+}
+#head3{
+	
+  width: 290px;
+  height: 30px;
+  padding-top:0px;
+  border: 1px solid black;
+  margin: 0px;
+ background-color: yellow;
+ color: black;
+
+}
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
