@@ -34,17 +34,15 @@ body {
 
 #nav-list {
   margin-top: 10px;
+
 }
 #nav-list a {
   color: white;
   text-align: center;
+
 }
 #nav-list a:hover {
-<<<<<<< HEAD
-  background: white;
-=======
-  background: #white;
->>>>>>> d8175e5ff93f29cd0a5fc2e07a15568a7b3f8c08
+background-color: gray;
 }
 #nav-list a span {
   font-size: 2.0em;
