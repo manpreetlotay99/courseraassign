@@ -1,0 +1,23 @@
+.container {
+  position: relative;;
+  margin:0 auto;
+  width: 40%;
+  top: 15em;
+  padding: 25px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container button {
+  position: relative;
+  margin-left: 35%;
+}
+
+.container .message {
+  color: navy;
+  font-size: 1.2em;
+}
